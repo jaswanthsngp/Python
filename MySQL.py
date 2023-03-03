@@ -1,6 +1,6 @@
 import mysql.connector
 
-mydb= mysql.connector.connect(host = 'localhost', user = 'root', password = 'Pwd4DBM$')
+mydb= mysql.connector.connect(host = 'localhost', user = 'root', password = '1234')
 #initiallising a variable connected with MySQL server
 cur= mydb.cursor()
 #Cursor allocates memory for databases in the server
